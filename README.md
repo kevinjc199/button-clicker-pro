@@ -2,9 +2,11 @@
 
 ## Setup
 
-* clone using `git`
+* clone using 
+`git clone https://github.com/kevinjc199/button-clicker-pro.git`
 * move into cloned directory
-* run ``
+* run `npm install`
+* run `npm start`
 
 ### Color buttons
 * Click on **blue button** should change background color of
