@@ -7,6 +7,7 @@ const RedButton = () => {
     }
     return (
         <button
+            id='red-button'
             className='button'
             onClick={clickHandler}
             style={color}

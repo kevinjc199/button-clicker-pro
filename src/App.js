@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './components/button'
+
 import './App.css'
 import BlueButton from './components/blue-button'
 import RedButton from './components/red-button'

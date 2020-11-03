@@ -13,7 +13,7 @@ function Counter() {
     }
     return (
         <div>
-            <h3 className='title is-2'>{count}</h3>
+            <h3 id='current-count' className='title is-2'>{count}</h3>
             <div className='field is-grouped'>
                 <Button name='-' click={() => handleClick(-1)}/>
                 <Button name='+' click={() => handleClick(1)}/>
@@ -26,7 +26,7 @@ function Counter() {
                         className="input is-small" type="text" />
                 </div>
                 <div className="control">
-                    <button onClick={handleSet} className="button is-info is-small">
+                    <button id='set-button' onClick={handleSet} className="button is-info is-small">
                         Set
                     </button>
                 </div>

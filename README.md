@@ -1,4 +1,10 @@
-# Button Clicker Pro Requirements
+# Button Clicker Pro
+
+## Setup
+
+* clone using `git`
+* move into cloned directory
+* run ``
 
 ### Color buttons
 * Click on **blue button** should change background color of
