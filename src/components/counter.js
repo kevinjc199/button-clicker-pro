@@ -5,7 +5,9 @@ function Counter() {
     const [count, setCount] = useState(0)
     const [formVal, setFormVal] = useState('')
     const handleClick = (num) => {
-        setCount(count + num)
+        const newCount = count + num
+        if (newCount >= 0 && newCount < 11)
+            setCount(newCount)
     }
     const handleSet = () => {
         setCount(parseInt(formVal))
